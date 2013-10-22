@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="sv">
+<head>
+		<title>
+		    
+		</title>
+		
+		<meta charset="utf-8">
+
+
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+ </header>
+ 
+  <nav>
+ </nav>
+ 
+ <main>
+ <h3>Felanmälan</h3>
+ <p>Gör gärna din felanmälan via formuläret nedan. Beskriv problemet tydligt och fyll i nedanstående uppgifter.
+     Vid akuta fall går det även bra att ringa oss på: xxx-xxxxxx. Går det inte specifiera felet, välj övrigt.
+ </p>
+
+<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formular"> 
+   
+         <fieldset class="felanmälan">
+<legend>Formulär för felanmälan av Hemsidan / övriga ärenden</legend>
+      
+Förnamn:<br>
+<input type="text" id="Förnamn" name="Förnamn"> <br>
+
+Efternamn:<br>
+<input type="text" id="Efternamn" name="Efternamn"><br>
+Gatuadress:<br>
+<input type="text" id="gata" name="adress"><br>
+Postnummer:<br>
+<input type="text" id="post" name="postnummer"><br>
+
+E-postadress:<br>
+<input type="email" id="Epost" name="Epost"> <br>
+Telefon nummer:<br>
+<input type="telefon" id="telefon" name="telefon"> <br>
+
+<label for="typ"> Typ av fel:</label><br>
+
+<select name="fel" id="Typavfel">
+<option> -- VÄLJ ÄRENDE --  </option>
+<option value="inloggning"> Inloggning </option>
+<option value="minasidor">Mina Sidor</option>
+<option value="faktura">Faktura frågor </option>
+<option value="leverans">Leverans</option>
+<option value="övrigt">övrigt</option>
+
+</select> <br>
+
+<p>Hur vill du bli kontaktad?</p>
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Epost</label><br>
+
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Telefon</label><br> 
+
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Brev</label><br><br>
+
+När uppstod felet:<br>
+<input id="dob" name="dob" type="date"><br><br>
+
+Beskrivning av fel:<br>
+<textarea id="Meddelande" cols="30" rows="6"></textarea> <br>
+
+<input type="submit" value="Skicka Felanmälan">
+
+</fieldset>           
+         </form>
+         
+        <div id="back">
+         <ul id="val">
+            <li> <a id = "for" href="servicepage.html">Tillbaka till sidan för val av formulär</a></li>
+        </ul>
+       </div>
+       
+ </main>
+ 
+ <footer>
+ </footer>
+ 
+</div>
+</body>
+
+</html>
