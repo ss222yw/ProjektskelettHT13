@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="sv">
+<head>
+		<title>
+		    
+		</title>
+		
+		<meta charset="utf-8">
+		
+
+	<link rel="stylecheet" media="screen and (max-width:480px)" href="../css/mobile.css" type="text/css" />
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+ </header>
+ 
+  <nav>
+ </nav>
+ 
+ <main>
+ <h3>Felanmälan</h3>
+ <p>Gör gärna din felanmälan via formuläret nedan. Beskriv problemet tydligt och fyll i nedanstående uppgifter.
+     Vid akuta fall går det även bra att ringa oss på: xxx-xxxxxx. Går det inte specifiera felet, välj övrigt.
+ </p>
+
+<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formular"> 
+
+<fieldset class="felanmälan">
+<legend>Formulär för felanmälan av Bostad</legend>
+      
+Förnamn:<br>
+<input type="text" id="Förnamn" name="Förnamn"> <br>
+
+Efternamn:<br>
+<input type="text" id="Efternamn" name="Efternamn"><br>
+Gatuadress:<br>
+<input type="text" id="gata" name="adress"><br>
+Postnummer:<br>
+<input type="text" id="post" name="postnummer"><br>
+
+E-postadress:<br>
+<input type="email" id="Epost" name="Epost"> <br>
+Telefon nummer:<br>
+<input type="telefon" id="telefon" name="telefon"> <br>
+
+
+
+
+<label for="typ"> Område:</label><br>
+<select name="ort" id="område">
+<option> -- VÄLJ ETT ALTERNATIV --  </option>
+<option value="kalmar"> Kalmar </option>
+<option value="Berga">Berga </option>
+<option value="Djurängen">Djurängen</option>
+<option value="Funkabo">Funkabo</option>
+<option value="Kalmarsundsparken">Kalmarsundsparken</option>
+<option value="Kvarnholmen">Kvarnholmen</option>
+<option value="Malmen">Malmen</option>
+<option value="Norrliden">Norrliden</option>
+<option value="Oxhagen">Oxhagen</option>
+<option value="Sandås">Sandås</option>
+<option value="Stensö">Stensö</option>
+<option value="nybro">Nybro </option>
+<option value="Östra Vimpeltorpet">Östra Vimpeltorpet</option>
+</select> <br>
+
+<p>Hur vill du bli kontaktad?</p>
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Epost</label><br>
+
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Telefon</label><br> 
+
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Brev</label><br><br>
+
+<label for="typ"> Typ av fel:</label><br>
+<select name="fel" id="Välj Utrymme">
+<option> -- VÄLJ UTRYMME --  </option>
+<option value="altan"> Altan </option>
+<option value="dusch">Dusch </option>
+<option value="badrum">Badrum </option>
+<option value="kök">Kök</option>
+<option value="Elcentral">Elcentral</option>
+<option value="vardagsrum">Vardagsrum</option>
+<option value="garage">Garage</option>
+<option value="övrigt">Övrigt</option>
+</select> <br><br>
+
+När uppstod felet:<br>
+<input id="dob" name="dob" type="date"><br><br>
+
+
+
+
+Beskrivning av fel:<br>
+<textarea id="Meddelande" cols="30" rows="6"></textarea> <br>
+
+<input type="submit" value="Skicka Felanmälan">
+
+</fieldset>           
+         </form>
+         
+         <div id="back">
+         <ul id="val">
+            <li> <a id = "for" href="servicepage.html">Tillbaka till sidan för val av formulär</a></li>
+        </ul>
+       </div>
+         
+         
+         
+         
+         
+ </main>
+ 
+ <footer>
+ </footer>
+ 
+</div>
+</body>
+
+</html>
