@@ -4,7 +4,7 @@ Projektmedlemmar:
 
 *Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
 
-[Exekverbar version av projektet](https://github.com/tn222eb/ProjektskelettHT13)
+[Exekverbar version av projektet](https://github.com/ss222yw/ProjektskelettHT13)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 
