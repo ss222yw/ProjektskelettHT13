@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+
+		<title>
+		    Fastigheter
+		</title>
+		
+		
+		
+		<link rel="stylecheet" media="screen and (max-width:480px)" href="css/mobile.css" type="text/css" />
+
+<script type="text/javascript">
+
+var image1=new Image()
+image1.src="pics/bild1.jpg"
+var image2=new Image()
+image2.src="pics/bild2.jpg"
+var image3=new Image()
+image3.src="pics/bild3.jpg"
+var image4=new Image()
+image4.src="pics/bild4.jpg"
+var image5=new Image()
+image5.src="pics/bild6.jpg"
+</script>
+
+<script type="text/javascript">
+
+var image6=new Image()
+image6.src="pics/bild10.jpg"
+var image7=new Image()
+image7.src="pics/bild11.jpg"
+var image8=new Image()
+image8.src="pics/bild12.jpg"
+var image9=new Image()
+image9.src="pics/bild13.jpg"
+var image10=new Image()
+image10.src="pics/bild14.jpg"
+
+</script>
+
+
+
+</head>
+
+<body>
+
+<h1>Lediga Bostäder</h1>
+
+<img src="pics/bild1.jpg" name="slide" width=365 height=300>
+
+<script>
+
+
+var step=1                                                     //variabel som ökar igenom bilderna
+function slideit(){                                           // Funktionen "Slideit"
+if (!document.images)                                        // Om webbläsaren inte stödjer bilden = Exit.
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<5)                                           //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
+step++
+else
+step=1                                     
+setTimeout("slideit()",5000)                        //Kallar på funktionen Slideit() varje 5 sekund.
+}
+slideit()
+
+</script>
+
+
+<img src="pics/bild10.jpg" name="slide" width=400 height=300>
+<script>
+
+
+var step=1                                       //variabel som ökar igenom bilderna
+function slideit(){                             // Funktionen "Slideit"
+if (!document.images)                          // Om webbläsaren inte stödjer bilden = Exit.
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<5)                                 //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
+step++
+else
+step=1
+setTimeout("slideit()",5000)             //Kallar på funktionen Slideit() varje 5 sekund.
+}
+slideit()
+
+</script>
+
+
+
+
+
+
+
+
+<div id="wrapper">
+<header>
+ </header>
+ 
+  <nav>
+ </nav>
+ 
+ <main>
+
+<table border="2">
+<thead>
+<tr>
+<th>Den här bostaden</th>
+<th>Snitt för området</th> 
+
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">6 900 000 kr</td>
+<td>2 680 000 kr</td>
+
+</tr>
+
+<tr>
+<td>200 m²</td>
+<td>182 m²</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td rowspan="1" colspan="4"> <b>Bostadsinformation:</b> <br>Ett av Kalmars bästa lägen! 
+Ett hus av modern<br> interiör och design. Nybyggt. Genomgående hög klass.<br> <b>Placering:</b> Sjösalavägen 8
+Björkudden, Kalmar  <br> <b>Artikel-nr:</b> 72-356LK
+<div id="backint">
+<ul id="intresse">
+<li> <a id = "intresse" href="interestnotification.html">Till Intresseanmälan</a></li>
+</ul>
+</div>
+
+</td>
+
+</tr>
+</tfoot>
+</table>
+
+
+
+
+
+
+<table border="2">
+<thead>
+<tr>
+<th>Den här bostaden</th>
+<th>Snitt för området</th> 
+
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td rowspan="1" colspan="1">1 250 000 kr</td>
+<td>853 000 kr</td>
+
+</tr>
+
+<tr>
+<td>130 m²</td>
+<td>110 m²</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td rowspan="1" colspan="4"> <b>Bostadsinformation:</b> <br>Här kommer du till ett nybyggt hus där allt färdigt och klart.
+<br>Här har du ett eget garage, bra lek yta för barnen <br>samt en stor trädgård.<br><b>Placering:</b> Framtidsvägen 31, Kalmar<br> <b>Artikel-nr:</b> 72-894SR
+<div id="backint">
+<ul id="intresse">
+<li> <a id = "intresse" href="interestnotification.html">Till Intresseanmälan</a></li>
+</ul>
+</div>
+
+</td>
+
+</tr>
+</tfoot>
+</table>
+
+
+
+
+ </main>
+ 
+ <footer>
+ </footer>
+ 
+</div>
+</body>
+
+</html>
