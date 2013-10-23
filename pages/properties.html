@@ -15,31 +15,18 @@
 <script type="text/javascript">
 
 var image1=new Image()
-image1.src="pics/bild1.jpg"
+image1.src="pics/panorama.jpg"
 var image2=new Image()
-image2.src="pics/bild2.jpg"
+image2.src="pics/Panorama1.jpg"
 var image3=new Image()
-image3.src="pics/bild3.jpg"
+image3.src="pics/panorama2.JPG"
 var image4=new Image()
-image4.src="pics/bild4.jpg"
+image4.src="pics/panorama3.jpg"
 var image5=new Image()
-image5.src="pics/bild6.jpg"
-</script>
-
-<script type="text/javascript">
-
-var image6=new Image()
-image6.src="pics/bild10.jpg"
-var image7=new Image()
-image7.src="pics/bild11.jpg"
-var image8=new Image()
-image8.src="pics/bild12.jpg"
-var image9=new Image()
-image9.src="pics/bild13.jpg"
-var image10=new Image()
-image10.src="pics/bild14.jpg"
+image5.src="pics/panorama4.jpg"
 
 </script>
+
 
 
 
@@ -47,57 +34,11 @@ image10.src="pics/bild14.jpg"
 
 <body>
  
-<h1>Lediga Bostäder</h1>
-
-<img src="pics/bild1.jpg" name="slide" width=365 height=300>
-
-<script>
-
-
-var step=1                                                     //variabel som ökar igenom bilderna
-function slideit(){                                           // Funktionen "Slideit"
-if (!document.images)                                        // Om webbläsaren inte stödjer bilden = Exit.
-return
-document.images.slide.src=eval("image"+step+".src")
-if (step<5)                                           //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
-step++
-else
-step=1                                     
-setTimeout("slideit()",5000)                        //Kallar på funktionen Slideit() varje 5 sekund.
-}
-slideit()
-
-</script>
-
-
-<img src="pics/bild10.jpg" name="slide2" width=400 height=300>
-<script>
-
-
-var step=1                                       //variabel som ökar igenom bilderna
-function slideit(){                             // Funktionen "Slideit"
-if (!document.images)                          // Om webbläsaren inte stödjer bilden = Exit.
-return
-document.images.slide2.src=eval("image"+step+".src")
-if (step<5)                                 //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
-step++
-else
-step=1
-setTimeout("slideit()",5000)             //Kallar på funktionen Slideit() varje 5 sekund.
-}
-slideit()
-
-</script>
-
-
-
-
-
-
 
 
 <div id="wrapper">
 <header>
+<h1>Lediga Bostäder</h1>
 <div class="logo">
     <a href="index.html" title="Tillbaka till startsidan"><img src="../pages/pics/tss.jpg" alt="tss"></a>
     </div>
@@ -109,14 +50,37 @@ slideit()
 <li> <a href="properties.html" class="active">Properties</a></li>
 <li> <a href="interest.html">Interest</a></li>
 <li> <a href="servicepages.html">Service</a></li>
-<li><a href="info.html">Information</a></li>
-<li><a href="aboutus.html" >About us</a></li>
+<li> <a href="info.html">Information</a></li>
+<li> <a href="aboutus.html" >About us</a></li>
 <li> <a href="contact.html">Contact</a></li>
               </ul>
  </nav>
  
  <main>
+ <img src="pics/panorama.jpg" name="slide1"  class="panorama">
 
+<script>
+
+
+var step=1                                                     //variabel som ökar igenom bilderna
+function slideit(){                                           // Funktionen "Slideit"
+if (!document.images)                                        // Om webbläsaren inte stödjer bilden = Exit.
+return
+document.images.slide1.src=eval("image"+step+".src")
+if (step<5)                                           //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
+step++
+else
+step=1                                     
+setTimeout("slideit()",4000)                        //Kallar på funktionen Slideit() varje 5 sekund.
+}
+slideit()
+
+</script>
+
+<img src="pics/55.jpg" title="Framtidsvägen 31" class="hus1">
+<img src="pics/56.jpg" title="Sjösalavägen 8 Björkudden" class="hus2">
+
+<div class="table1">
 <table border="2">
 <thead>
 <tr>
@@ -148,19 +112,16 @@ Björkudden, Kalmar  <br> <b>Artikel-nr:</b> 72-356LK
 <ul id="intresse">
 <li> <a id = "intresse" href="interestnotification.html">Till Intresseanmälan</a></li>
 </ul>
-</div>
+
 
 </td>
 
 </tr>
 </tfoot>
 </table>
+</div>
 
-
-
-
-
-
+<div class="table2">
 <table border="2">
 <thead>
 <tr>
@@ -185,8 +146,8 @@ Björkudden, Kalmar  <br> <b>Artikel-nr:</b> 72-356LK
 
 <tfoot>
 <tr>
-<td rowspan="1" colspan="4"> <b>Bostadsinformation:</b> <br>Här kommer du till ett nybyggt hus där allt färdigt och klart.
-<br>Här har du ett eget garage, bra lek yta för barnen <br>samt en stor trädgård.<br><b>Placering:</b> Framtidsvägen 31, Kalmar<br> <b>Artikel-nr:</b> 72-894SR
+<td rowspan="1" colspan="4"> <b>Bostadsinformation:</b> <br>Här kommer du till ett nybyggt hus där allt färdigt<br> och klart.
+Här har du ett eget garage, bra lek yta för bar-<br>nen samt en stor trädgård.<br><b>Placering:</b> Framtidsvägen 31, Kalmar<br> <b>Artikel-nr:</b> 72-894SR
 <div id="backint">
 <ul id="intresse">
 <li> <a id = "intresse" href="interestnotification.html">Till Intresseanmälan</a></li>
@@ -198,16 +159,15 @@ Björkudden, Kalmar  <br> <b>Artikel-nr:</b> 72-356LK
 </tr>
 </tfoot>
 </table>
-
-
+</div>
+<img src="pics/57.jpg" title="">
+<img src="pics/58.jpg" title="">
 
 
  </main>
  
  <footer>
-  <p>&copy; ansvaring för denna sidan är <strong>TSS</strong> fastigheter AB</p>
-  <a href="https://www.facebook.com/pages/TSS-Fastigheter-AB/460550610724217?skip_nax_wizard=true" title="Gilla oss på facebook!"><img src="../pages/pics/fb.png"</a>
-
+  <p>&copy; Ansvarig för denna sidan är TSS Fastigheter AB</p>
  </footer>
  
 </div>
