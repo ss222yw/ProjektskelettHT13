@@ -63,21 +63,22 @@ color:blue;
 background-color:gray;
 }
 nav li a{
+    text-transform:uppercase;
     text-decoration: none;
     color:white;
     font-weight:bold;
     display:block;
     padding:10px 20px;
-    border-radius:12px;
+    border-radius:10px;
     border:solid white 1px;
     background-color:black;
     margin:2px 2px 2px 2px;
+    width:120px;
     }
 nav li a:hover, nav .active a{
     background-color:#F5F5F5;
     color:blue;
 } 
-/*Tommy ändra inte igen */
 #inputusername{
   max-width:100px;
   border: 1px solid black;
