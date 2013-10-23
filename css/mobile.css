@@ -2,7 +2,7 @@ body
 {
 max-width:100%;
 
-background-color:gray;
+background-color:#eee;
 }
 
 
@@ -28,7 +28,7 @@ main
 {
 overflow:hidden;
 text-align: center;    
-background-color: #FFF5EE;    
+background-color: #F0FFFF;    
 max-width: 100%;    
 border-radius: 5px 5px 5px 5px;    
 }
@@ -48,75 +48,62 @@ img
 /* nav */
 
 nav{
-background-color:#555;
-padding:10px 10px 100px 1px;}
-ul{list-style-type:none;}
+background-color:#DCDCDC;
+height:auto;
+padding-top:1px;
+}
+ul{list-style-type:none; }
 nav li{float:left;
 text-align:center;
-color:blue;}
+color:blue;
+}
 nav li a{
-    color:red;
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
     display:block;
     padding:10px;
-
+    border-radius:12px;
+    border:solid black 1.5px;
+    background-color:black;
+    margin:2px 2px 2px 2px;
 }
 nav li a:hover, nav .active a{
-    text-decoration:none;
     background-color:#F5F5F5;
     color:#4169E1;
 } 
-input[type="text"]{
+#inputusername{
   max-width:100px;
   border: 1px solid black;
 }
 
-input[type="password"]
+#inputpassword
 {
   max-width:100px;
   border: 1px solid black;
 }
-input[type="submit"]
-{
-height: 27px;
-padding: 5px 28px;
-border-color: gray;
-border-style: solid;
-border-width: 0 1px 1px;
-font: bold 12px/17px Arial;
-}
+
 fieldset
 {
     margin: 1px 1px 1px 1px;
     border: 1px solid black;
 }
 
-header form input
-{
-    width: 125px;
-}
 
-
-header main form
-{
-    width: 100%;
-}
 h2{color:black; font-weight:bold; text-shadow: 5px 5px 5px #FF0000;}
 .clear{height:30px;
 clear:both;}
 
 /*Main*/
-main p  {float:left;
-padding-left:10px;
-width:460px;}
-main h2{padding-left:10px; width:460px; float:left;}
+
 main img {-moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
 margin:0 0 20px 0;
-height:250px;
-width:440px;}
+height:350px;
+width:300px;}
 main{clear:both;}
-#main section{width:240px;
+#main section{width:345px;
 float:left;
 margin:0 0 0 20px;
 background-color:#eee;
@@ -124,8 +111,24 @@ background-color:#eee;
 -webkit-border-radius:12px;
 border-radius:12px;
 padding:20px;}
-#main figure img{width:100%;
-height:200px;
-margin:10px 0;}
+.figure img{width:100%;
+height:100px;
+margin:10px 0 ;}
     
-#main figure  {font-size:1.5em;}
+    
+#sahib
+{
+    height: 100px;
+    width: 100px;
+}
+#main1 section{
+width:250px;
+float:left;
+margin:0 10px 0 10px;
+background-color: #eee;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+text-align: center;
+padding:20px;}
+

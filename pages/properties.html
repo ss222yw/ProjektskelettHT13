@@ -46,7 +46,7 @@ image10.src="pics/bild14.jpg"
 </head>
 
 <body>
-
+ 
 <h1>Lediga Bostäder</h1>
 
 <img src="pics/bild1.jpg" name="slide" width=365 height=300>
@@ -70,7 +70,7 @@ slideit()
 </script>
 
 
-<img src="pics/bild10.jpg" name="slide" width=400 height=300>
+<img src="pics/bild10.jpg" name="slide2" width=400 height=300>
 <script>
 
 
@@ -78,7 +78,7 @@ var step=1                                       //variabel som ökar igenom bil
 function slideit(){                             // Funktionen "Slideit"
 if (!document.images)                          // Om webbläsaren inte stödjer bilden = Exit.
 return
-document.images.slide.src=eval("image"+step+".src")
+document.images.slide2.src=eval("image"+step+".src")
 if (step<5)                                 //Om variablen step är mindre än 5, fortsätt öka med 1, annars gå tillbaka till 1.
 step++
 else

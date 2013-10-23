@@ -1,4 +1,4 @@
-# Projektnamn här
+# TSS Fastigheter
 Projektmedlemmar: 
 [tn2222eb](https://github.com/tn222eb), [ss222yw](https://github.com/ss222yw), [sr222hn](https://github.com/sr222hn)
 
@@ -12,9 +12,9 @@ Projektmedlemmar:
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
 
 Fastighetsbostads hemsida.
-Vi valde att göra det för det finns mycket att göra för att det ska vara som en fastighets hemsida.
+Vi valde **att** göra det för det finns mycket att göra för att det ska vara som en fastighets hemsida.
 Sahib tänkte att man kanske kunde känna pengar på det i framtiden genom att göra sidor åt företag.
-
+Han hade också kontakter inom de som kanske ville använda vårt arbete då vi är klara med det och ifall dom tycker det är bra.
 
 
 ## Tekniker
@@ -30,7 +30,7 @@ Information i databas
 ## Förstudier
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
 
-Vi kommer undersöka andra hemsidor för inspiration för vårt arbete
+Vi kommer undersöka andra hemsidor för inspiration för vårt arbete men annars gör vi eget
 
 ## *Förändra*
 *Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
