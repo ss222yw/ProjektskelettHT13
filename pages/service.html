@@ -15,14 +15,13 @@
 <body>
 <div id="wrapper">
 <header>
-<header>
+<a name ="start"></a>
 <div class="logo">
     <a href="index.html" title="Tillbaka till startsidan"><img src="../pages/pics/tss.jpg" alt="tss"></a>
     </div>
  </header>
  
- </header>
- 
+
   <nav>
  </nav>
  
@@ -35,27 +34,29 @@
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formular"> 
 
 <fieldset class="felanmälan">
-<legend>Formulär för felanmälan av Bostad</legend>
+<legend>Felanmälan av Bostad</legend>
       
-Förnamn:<br>
-<input type="text" id="Förnamn" name="Förnamn"> <br>
+<label>Förnamn</label>
+<input type="text" id="Förnamn" name="Förnamn">
 
-Efternamn:<br>
-<input type="text" id="Efternamn" name="Efternamn"><br>
-Gatuadress:<br>
-<input type="text" id="gata" name="adress"><br>
-Postnummer:<br>
-<input type="text" id="post" name="postnummer"><br>
+<label>Efternamn</label>
+<input type="text" id="Efternamn" name="Efternamn">
 
-E-postadress:<br>
-<input type="email" id="Epost" name="Epost"> <br>
-Telefon nummer:<br>
-<input type="telefon" id="telefon" name="telefon"> <br>
+<label>Gatuadress</label>
+<input type="text" id="gata" name="adress">
+
+<label>Postnummer</label>
+<input type="text" id="post" name="postnummer">
+
+<label>E-postadress</label>
+<input type="email" id="Epost" name="Epost">
+<label>Telefon</label>
+<input type="telefon" id="telefon" name="telefon">
 
 
 
 
-<label for="typ"> Område:</label><br>
+<label>Område</label>
 <select name="ort" id="område">
 <option> -- VÄLJ ETT ALTERNATIV --  </option>
 <option value="kalmar"> Kalmar </option>
@@ -73,17 +74,19 @@ Telefon nummer:<br>
 <option value="Östra Vimpeltorpet">Östra Vimpeltorpet</option>
 </select> <br>
 
-<p>Hur vill du bli kontaktad?</p>
-<input type="checkbox" name="alt[]" id="alt" value="alt">
-<label for="kontakt">Epost</label><br>
+<label>Hur vill du bli kontaktad?</label></br>
 
 <input type="checkbox" name="alt[]" id="alt" value="alt">
-<label for="kontakt">Telefon</label><br> 
+<label>Epost</label><br>
 
 <input type="checkbox" name="alt[]" id="alt" value="alt">
-<label for="kontakt">Brev</label><br><br>
+<label>Telefon</label><br>
 
-<label for="typ"> Typ av fel:</label><br>
+<input type="checkbox" name="alt[]" id="alt" value="alt">
+<label for="kontakt">Brev</label><br>
+
+</br>
+<label>Typ av fel</label><br>
 <select name="fel" id="Välj Utrymme">
 <option> -- VÄLJ UTRYMME --  </option>
 <option value="altan"> Altan </option>
@@ -96,16 +99,18 @@ Telefon nummer:<br>
 <option value="övrigt">Övrigt</option>
 </select> <br><br>
 
-När uppstod felet:<br>
+<label>När uppstod felet</label>
 <input id="dob" name="dob" type="date"><br><br>
 
 
 
+<label>Beskrivning av fel</label>
+<textarea id="Meddelande" cols="30" rows="6"></textarea>
 
-Beskrivning av fel:<br>
-<textarea id="Meddelande" cols="30" rows="6"></textarea> <br>
-
+<div class="clear"></div>
+<div class="fel">
 <input type="submit" value="Skicka Felanmälan">
+</div>
 
 </fieldset>           
          </form>
@@ -119,7 +124,10 @@ Beskrivning av fel:<br>
          
          
          
-         
+              <div class="clear"></div>
+              <div class="pil">
+    <a href="#start">  <img src="../pages/pics/pil.png" alt="pil" title="Tillbaka till toppen?TRYCK!"></a>
+    </div>
  </main>
  
  <footer>

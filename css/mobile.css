@@ -1,7 +1,8 @@
 /* Body */
 body
 {
-max-width:100%;background-color:#eee;
+max-width:100%;
+background-color:#eee;
 }
 
 
@@ -41,7 +42,8 @@ nav
 
 {
 height:auto;
-padding:-40px;
+padding:35px;
+padding-top:0;
 
 }
 ul
@@ -58,7 +60,6 @@ nav li
 float:left;
 text-align:center;
 color:blue;
-background-color:gray;
 }
 
 
@@ -79,13 +80,15 @@ width:120px;
 }
 
 
-nav li a:hover, nav .active a
+nav li a:hover
 
 {
 background-color:#F5F5F5;
 color:black;
+border:solid black 1px;
 } 
-
+ .active 
+{background-color:#330000;}
 .clear
 {
 height:30px;
@@ -120,7 +123,7 @@ border-radius:12px;
 padding:20px;}
 
     
-.panorama {width: 700px; height:150px; border:2px solid black;}
+.panorama {width:450px; height:150px; border:2px solid black;}
 #transform1 {margin:auto; float:right; padding-top:20px;}
 #transform2{margin:auto;  float:right; padding-top:20px;}
 #transform3{margin:auto; float:right; padding-top:20px; }
@@ -264,7 +267,7 @@ padding:20px;}
 
 
 /* Personal pictures in Contact */
-#sahib
+#personalpic
 {
     height: 100px;
     width: 100px;
@@ -277,7 +280,7 @@ padding:20px;}
 {
 width:240px;
 float:left;
-margin:0 10px 0 10px;
+margin:0 0px 20px 40px;
 background-color: #eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
@@ -323,7 +326,7 @@ width:300px;
 
 main form label
 {
-width: 80px;
+width: 140px;
 text-align: left;
 display: block;
 }
@@ -331,7 +334,7 @@ display: block;
 
 
 
-main form input, select
+main form input, select, textarea
 {
 margin-bottom: 10px;
 float: left;
@@ -355,4 +358,14 @@ border: 1px solid black;
 max-width:100px;
 border: 1px solid black;
 }
-h1{color:blue; text-align:right;}
+
+/* Text */
+
+h1
+{
+color: #330000;
+text-align:right;
+}
+
+.fel{float:left;}
+.pil{height:50px; width:100px;  margin-bottom:160px; float:right;}

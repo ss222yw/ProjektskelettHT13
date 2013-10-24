@@ -15,14 +15,13 @@
 <body>
 <div id="wrapper">
 <header>
-<header>
+<a name ="start"></a>
 <div class="logo">
     <a href="index.html" title="Tillbaka till startsidan"><img src="../pages/pics/tss.jpg" alt="tss"></a>
     </div>
  </header>
  
- </header>
- 
+
   <nav>
  </nav>
  
@@ -35,21 +34,21 @@
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" id="formular"> 
    
          <fieldset class="felanmälan">
-<legend>Formulär för felanmälan av Hemsidan / övriga ärenden</legend>
-      
-Förnamn:<br>
+<legend>Felanmälan av Hemsidan / övriga ärenden</legend>
+
+<label>Förnamn</label>
 <input type="text" id="Förnamn" name="Förnamn"> <br>
 
-Efternamn:<br>
+<label>Efternamn:</label>
 <input type="text" id="Efternamn" name="Efternamn"><br>
-Gatuadress:<br>
+<label>Gatuadress:</label>
 <input type="text" id="gata" name="adress"><br>
-Postnummer:<br>
+<label>Postnummer:</label>
 <input type="text" id="post" name="postnummer"><br>
 
-E-postadress:<br>
+<label>E-postadress:</label>
 <input type="email" id="Epost" name="Epost"> <br>
-Telefon nummer:<br>
+<label>Telefon nummer:</label>
 <input type="telefon" id="telefon" name="telefon"> <br>
 
 <label for="typ"> Typ av fel:</label><br>
@@ -64,7 +63,7 @@ Telefon nummer:<br>
 
 </select> <br>
 
-<p>Hur vill du bli kontaktad?</p>
+<label><p>Hur vill du bli kontaktad?</p></label>
 <input type="checkbox" name="alt[]" id="alt" value="alt">
 <label for="kontakt">Epost</label><br>
 
@@ -74,14 +73,15 @@ Telefon nummer:<br>
 <input type="checkbox" name="alt[]" id="alt" value="alt">
 <label for="kontakt">Brev</label><br><br>
 
-När uppstod felet:<br>
+<label>När uppstod felet:</label>
 <input id="dob" name="dob" type="date"><br><br>
 
-Beskrivning av fel:<br>
+<label>Beskrivning av fel</label>
 <textarea id="Meddelande" cols="30" rows="6"></textarea> <br>
-
+<div class="clear"></div>
+<div class="fel">
 <input type="submit" value="Skicka Felanmälan">
-
+</div>
 </fieldset>           
          </form>
          
@@ -90,7 +90,10 @@ Beskrivning av fel:<br>
             <li> <a id = "for" href="servicepages.html">Tillbaka till sidan för val av formulär</a></li>
         </ul>
        </div>
-       
+            <div class="clear"></div>
+              <div class="pil">
+    <a href="#start">  <img src="../pages/pics/pil.png" alt="pil" title="Tillbaka till toppen?TRYCK!"></a>
+    </div>
  </main>
  
  <footer>
