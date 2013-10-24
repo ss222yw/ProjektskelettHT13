@@ -1,22 +1,22 @@
+/* Body */
 body
 {
-max-width:100%;
-
-background-color:#eee;
+max-width:100%;background-color:#eee;
 }
 
 
 
-
+/* Wrapper */
 #wrapper
 {
 max-width: 100%;    
 margin: auto;
 height: auto; 
 border-radius: 5px 5px 5px 5px;
-width:960px;
+width:480px;
 }
 
+/* Header */
 header
 {
 text-align: center;    
@@ -26,18 +26,7 @@ background:url(pics/loggain.jpg);
 
 }
 
-main
-{
-overflow:hidden;
-text-align: center;    
-background-color: #F0FFFF;    
-max-width: 100%;    
-border-radius: 5px 5px 5px 5px;  
-background:url(pics/silver2.png);
-
-
-}
-
+/* Footer */
 footer
 {
 text-align: center;    
@@ -46,65 +35,74 @@ background:url(pics/white1.jpg);
 border-radius: 5px 5px 5px 5px;    
 }
 
-img
-{
-    max-width:100%;
-}
-
 /* nav */
 
-nav{
+nav
+
+{
 height:auto;
-padding:-40px;}
-ul{list-style-type:none; }
-nav li{float:left;
+padding:-40px;
+
+}
+ul
+
+
+{
+list-style-type:none;
+
+}
+nav li
+
+
+{
+float:left;
 text-align:center;
 color:blue;
 background-color:gray;
 }
-nav li a{
-    text-transform:uppercase;
-    text-decoration: none;
-    color:white;
-    font-weight:bold;
-    display:block;
-    padding:10px 20px;
-    border-radius:10px;
-    border:solid white 1px;
-    background-color:black;
-    margin:2px 2px 2px 2px;
-    width:120px;
-    }
-nav li a:hover, nav .active a{
-    background-color:#F5F5F5;
-    color:blue;
+
+
+nav li a
+
+{
+text-transform:uppercase;
+text-decoration: none;
+color:white;
+font-weight:bold;
+display:block;
+padding:10px 20px;
+border-radius:10px;
+border:solid white 1px;
+background-color:black;
+margin:2px 2px 2px 2px;
+width:120px;
+}
+
+
+nav li a:hover, nav .active a
+
+{
+background-color:#F5F5F5;
+color:black;
 } 
-#inputusername{
-  max-width:100px;
-  border: 1px solid black;
-}
 
-#inputpassword
+.clear
 {
-  max-width:100px;
-  border: 1px solid black;
+height:30px;
+clear:both;
 }
-
-
-fieldset
-{
-    margin: 1px 1px 1px 1px;
-    border: 1px solid black;
-    background:url(pics/silver1.jpg);
-
-}
-
-
-.clear{height:30px;
-clear:both;}
 
 /*Main*/
 
+main
+{
+overflow:hidden;
+text-align: center;    
+background-color: #F0FFFF;    
+max-width: 100%;    
+border-radius: 15px 15px 15px 15px;  
+background:url(pics/silver2.png);
+}
 main img {-moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
@@ -123,17 +121,160 @@ padding:20px;}
 
     
 .panorama {width: 700px; height:150px; border:2px solid black;}
-.hus1{float:left;padding-left:50px;}
-.table1{ float:right;margin-top:5px;padding-right:80px;}
-.table2{margin-top:5px;padding-left:55px;}    
+#transform1 {margin:auto; float:right; padding-top:20px;}
+#transform2{margin:auto;  float:right; padding-top:20px;}
+#transform3{margin:auto; float:right; padding-top:20px; }
+#transform4{margin:auto; float:right; padding-top:20px; }
+#transform5{margin:auto; float:right; padding-top:20px; }
+#transform6{margin:auto; float:right; padding-top:20px; }
+
+.table1{margin-left:60px;}
+.table2{margin-left:60px;}
+.table3{ margin-left:60px;}
+.table4{ margin-left:60px;}
+.table5{margin-left:60px;}
+.table6{margin-left:60px;}
+.intresse{float:none;}
+
+#transform1  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform1 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform1 .top:hover {
+  opacity:0;
+}
+
+#transform2  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform2 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform2 .top:hover {
+  opacity:0;
+}
 
 
+#transform3  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform3 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform3 .top:hover {
+  opacity:0;
+}
+
+
+#transform4  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform4 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform4 .top:hover {
+  opacity:0;
+}
+
+
+#transform5  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform5 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform5 .top:hover {
+  opacity:0;
+}
+
+
+#transform6  {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#transform6 img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#transform6 .top:hover {
+  opacity:0;
+}
+
+
+
+
+/* Personal pictures in Contact */
 #sahib
 {
     height: 100px;
     width: 100px;
 }
-#main1 section{
+
+
+/* Contact figure box */
+#main1 section
+
+{
 width:240px;
 float:left;
 margin:0 10px 0 10px;
@@ -142,10 +283,76 @@ background-color: #eee;
 -webkit-border-radius:12px;
 border-radius:12px;
 text-align: center;
-padding:20px;}
+padding:20px;
 
-.logo1{float:right;margin-top:-120px;}
+}
 
-#main img{width:300px; height:160px;}
 
-#main1 img{width:300px; height:160px;}
+
+
+/* Pictures */ 
+
+.logo1{float:right;}
+
+img
+{
+    max-width:100%;
+}
+
+img
+{
+    max-width:100%;
+}
+
+#main img
+
+
+{
+width:300px;
+
+height:160px;
+
+}
+
+#main1 img
+{
+width:300px;
+}
+
+/* Fieldset */
+
+main form label
+{
+width: 80px;
+text-align: left;
+display: block;
+}
+
+
+
+
+main form input, select
+{
+margin-bottom: 10px;
+float: left;
+}
+
+fieldset
+{
+margin: 1px 1px 1px 1px;
+border: 1px solid black;
+background:url(pics/silver1.jpg);
+}
+
+#inputusername
+{
+max-width:100px;
+border: 1px solid black;
+}
+
+#inputpassword
+{
+max-width:100px;
+border: 1px solid black;
+}
+h1{color:blue; text-align:right;}

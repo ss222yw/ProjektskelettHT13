@@ -31,126 +31,63 @@
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
 <fieldset>
 <legend>Intresseanmälan</legend>
-<table>
 
 
-<tr>
-<td>Förnamn</td>
-<td><input class="input" type="text" name="firstname"/></td>
-<td>&nbsp;</td>
-<td>Förnamn</td>
-<td><input class="input" type="text" name="firstname2"/></td>
-</tr>
-			
-<tr>
-<td>Efternamn</td>
-<td><input class="input" type="text" name="lastname"/></td>
-<td>&nbsp;</td>
-<td>Efternamn</td>
-<td><input class="input" type="text" name="lastname2"/></td>
-</tr>
-		    
-<tr>
-<td>Personnummer</td>
-<td><input class="input" type="text" name="civicregistrationnumber"/></td>
-<td>&nbsp;</td>
-<td>Personnummer</td>
-<td><input class="input" type="text" name="civicregistrationnumber2"/></td>
-</tr>
+
+<label>Förnamn</label>
+<input class="input" type="text" name="firstname"/>
+
+<label>Efternamn</label>
+<input class="input" type="text" name="lastname"/>
+
+<label>Personnummer</label>
+<input class="input" type="text" name="civicregistrationnumber"/>
+
   
-<tr>
-<td>Civilstånd</td>
-<td>
+<label>Civilstånd</label>
 <select name ="maritalstatus">
 <option value="single" selected>Ensamstående</option>
 <option value="attached">Sambo</option>
 <option value="married" >Gift</option>
 </select>
-</td>
-</tr>
-		    
-<tr>
-<td>Adress</td>
-<td><input class="input" type="text" name="address"/></td>
-<td>&nbsp;</td>
-<td>Adress</td>
-<td><input class="input" type="text" name="address2"/></td>
-</tr>
-		    
-<tr>
-<td>Postnummer</td>
-<td><input class="input" type="text" name="postalcode"/></td>
-<td>&nbsp;</td>
-<td>Postnummer</td>
-<td><input class="input" type="text" name="postalcode2"/></td>
-</tr>
-		    
-<tr>
-<td>Ort</td>
-<td><input class="input" type="text" name="location"/></td>
-<td>&nbsp;</td>
-<td>Ort</td>
-<td><input class="input" type="text" name="location2"/></td>
-</tr>
-		    
-<tr>
-<td>Telefon</td>
-<td><input class="input" type="text" name="phone"/></td>
-<td>&nbsp;</td>
-<td>Telefon</td>
-<td><input class="input" type="text" name="phone2"/></td>
-</tr>
-		    
-<tr>
-<td>E-post</td>
-<td><input class="input" type="text" name="email"/></td>
-<td>&nbsp;</td>
-<td>E-post</td>
-<td><input class="input" type="text" name="email2"/></td>
-</tr>
+	    
+<label>Adress</label>
+<input class="input" type="text" name="address"/>
 
-<tr>
-<td>Yrke</td>
-<td><input class="input" type="text" name="occupation"/></td>
-<td>&nbsp;</td>
-<td>Yrke</td>
-<td><input class="input" type="text" name="occupation2"/></td>
-</tr>
+		    
+<label>Postnummer</label>
+<input class="input" type="text" name="postalcode"/>
 
-<tr>
-<td>Årsinkomst</td>
-<td><input class="input" type="text" name="yearwages"/></td>
-<td>&nbsp;</td>
-<td>Årsinkomst</td>
-<td><input class="input" type="text" name="yearwages2"/></td>
-</tr>
-	   
-<tr>
-<td>Arbetsgivare</td>
-<td><input class="input" type="text" name="employer"/></td>
-<td>&nbsp;</td>
-<td>Arbetsgivare</td>
-<td><input class="input" type="text" name="employer2"/></td>
-</tr>
+		    
+<label>Ort</label>
+<input class="input" type="text" name="location"/>
 
-<tr>
-<td>Telefon</td>
-<td><input class="input" type="text" name="employerphone"/></td>
-<td>&nbsp;</td>
-<td>Telefon</td>
-<td><input class="input" type="text" name="employerphone2"/></td>
-</tr>
-	   
-	   
-<tr>
-<td>Artikel-Nr</td>
-<td><input class="input" type="text" name="articlenr"/></td>
-<td>&nbsp;</td>
-</tr>	   
-	   
-<tr>
-<td>Antal rum</td>
-<td>
+
+<label>Telefon</label>
+<input class="input" type="text" name="phone"/>
+
+		    
+<label>E-post</label>
+<input class="input" type="text" name="email"/>
+
+
+<label>Yrke</label>
+<input class="input" type="text" name="occupation"/>
+
+<label>Årsinkomst</label>
+<input class="input" type="text" name="yearwages"/>
+
+	  
+<label>Arbetsgivare</label>
+<input class="input" type="text" name="employer"/>
+
+<label>Telefon</label>
+<input class="input" type="text" name="employerphone"/>
+
+<label>Artikel-Nr</label>
+<input class="input" type="text" name="articlenr"/>
+
+<label>Antal rum</label>
 <select name ="numberofrooms">
 <option value="1" selected>1</option>
 <option value="1,5">1,5</option>
@@ -163,12 +100,8 @@
 <option value="8">8</option>
 <option value="9">9</option>
 </select>
-</td>
-</tr>		   
 
-<tr>
-<td>Hyra</td>
-<td>
+<label>Hyra</label>
 <select name ="rent">
 <option value="1500" selected>1500 kr/mån</option>
 <option value="2000">2000 kr/mån</option>
@@ -188,14 +121,10 @@
 <option value="9000">9000 kr/mån</option>
 <option value="9500">9500 kr/mån</option>
 </select>
-</td>
-</tr>
 
-<tr>
-<td colspan=4><input type="submit" id="send" value="Skicka"/></td>
-</tr>
 
-</table>
+
+<input type="submit" id="send" value="Skicka" style="float: right"/>
 
 </fieldset>
 
