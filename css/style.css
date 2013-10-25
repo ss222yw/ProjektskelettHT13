@@ -48,7 +48,8 @@ footer
 }
 
 #transform1 img {
-   margin-left:35px;
+    width: 400px;
+   margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -68,7 +69,8 @@ footer
 }
 
 #transform2 img {
-    margin-left:35px;
+     width:400px;
+    margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -89,7 +91,8 @@ footer
 }
 
 #transform3 img {
-    margin-left:35px;
+    width:400px;
+    margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -110,7 +113,8 @@ footer
 }
 
 #transform4 img {
-    margin-left:35px;
+    width:400px;
+    margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -131,7 +135,8 @@ footer
 }
 
 #transform5 img {
-    margin-left:35px;
+    width:400px;
+    margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -152,7 +157,8 @@ footer
 }
 
 #transform6 img {
-    margin-left:35px;
+    width:400px;
+    margin-left:65px;
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
