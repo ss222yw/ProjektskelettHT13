@@ -1,12 +1,13 @@
+
+
 /* Body */
 body
 {
 max-width:100%;
 background-color:#eee;
 }
-
-
-
+h1{font-weight:bold; text-shadow: 10px 10px 10px #708090;}
+h2{font-weight:bold; text-shadow: 10px 10px 10px #708090;}
 /* Wrapper */
 #wrapper
 {
@@ -22,7 +23,7 @@ header
 {
 text-align: center;    
 max-width: 100%;
-border-radius: 5px 5px 5px 5px; 
+border-radius: 15px 15px 15px 15px; 
 background:url(pics/silver1.jpg);
 
 }
@@ -33,7 +34,7 @@ footer
 text-align: center;    
 max-width: 100%;    
 background:url(pics/white1.jpg);
-border-radius: 5px 5px 5px 5px;    
+border-radius: 15px 15px 15px 15px;     
 }
 
 /* nav */
@@ -72,7 +73,6 @@ color:white;
 font-weight:bold;
 display:block;
 padding:10px 20px;
-border-radius:10px;
 border:solid white 1px;
 background-color:black;
 margin:2px 2px 2px 2px;
@@ -123,8 +123,8 @@ border-radius:12px;
 padding:20px;}
 
     
-.panorama {width:450px; height:150px; border:2px solid black;}
-#transform1 {margin:auto; float:right; padding-top:20px;}
+.panorama {display:none;}
+#transform1 {margin:auto; float:right; padding-top:20px;   max-width: 100%;}
 #transform2{margin:auto;  float:right; padding-top:20px;}
 #transform3{margin:auto; float:right; padding-top:20px; }
 #transform4{margin:auto; float:right; padding-top:20px; }
@@ -137,7 +137,7 @@ padding:20px;}
 .table4{ margin-left:60px;}
 .table5{margin-left:60px;}
 .table6{margin-left:60px;}
-.intresse{float:none;}
+#intresse{float:none; text-decoration:none;}
 
 #transform1  {
   position:relative;
@@ -153,6 +153,8 @@ padding:20px;}
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  margin-left: 10px;
+  
 }
 
 #transform1 .top:hover {
@@ -173,6 +175,7 @@ padding:20px;}
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  
 }
 
 #transform2 .top:hover {
@@ -364,10 +367,9 @@ max-width:100px;
 border: 1px solid black;
 }
 
-/* Text */
+/* Annat */
 
 
 
 .fel{float:left;}
 .pil{height:50px; width:100px;  margin-bottom:160px; float:right;}
-
