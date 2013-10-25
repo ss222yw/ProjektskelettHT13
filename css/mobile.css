@@ -1,6 +1,5 @@
-
-
 /* Body */
+
 body
 {
 max-width:100%;
@@ -117,43 +116,40 @@ margin:15px 15px 0px 15px;
 height:250px;
 width:400px;}
 main{clear:both;}
-#main section{width:175px;
-float:left;
-margin:0 0 20px 20px;
+#main section{max-width:70%;
+margin:auto;
+margin-bottom:10px;
 background-color:#eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
 padding:20px;}
 
-.panorama {display:block; margin-left:130px;}
-#transform1 { float:right; padding-top:20px; margin-right: 20px;
-    }
+.panorama {display:none;}
+#transform1 {margin:auto;}
 #transform2{margin:auto;  float:right; padding-top:20px;}
 #transform3{margin:auto; float:right; padding-top:20px; }
 #transform4{margin:auto; float:right; padding-top:20px; }
 #transform5{margin:auto; float:right; padding-top:20px; }
 #transform6{margin:auto; float:right; padding-top:20px; }
 
-.table1{margin-left:60px; padding-top:20px;}
-.table2{margin-left:60px; padding-top:20px;}
-.table3{ margin-left:60px; padding-top:20px;}
-.table4{ margin-left:60px; padding-top:20px;}
-.table5{margin-left:60px; padding-top:20px;}
-.table6{margin-left:60px; padding-top:20px;}
-#intresse{float:none; text-decoration:none;}
+.table1{margin-left:6px; padding-top: 235px; padding-right: 50px;}
+.table2{margin-left:6px; padding-top:250px; padding-right: 50px;}
+.table3{ margin-left:6px; padding-top:250px; padding-right: 50px;}
+.table4{ margin-left:6px; padding-top:250px; padding-right: 50px;}
+.table5{margin-left:6px; padding-top:250px; padding-right: 50px;}
+.table6{margin-left:6px; padding-top:250px; padding-right: 50px;}
+#intresse{float:none; text-decoration:none; }
 
 #transform1  {
-  position:relative;
-  height:281px;
- 
+  height:100px;
   margin:0 auto;
 }
 
 #transform1 img {
-  width:300px;
+  width:100px;
   position:absolute;
-  left:-32.5px;
+  left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -168,16 +164,14 @@ padding:20px;}
 
 #transform2  {
     
-  position:relative;
-  height:281px;
-  max-width: 100%;
+  height:100px;
+  margin: 0 auto;
   
 }
 
 #transform2 img {
-   width:300px;
-  position:absolute;
-  left:-32.5px;
+   width:100px;
+  left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -191,16 +185,14 @@ padding:20px;}
 
 
 #transform3  {
-  position:relative;
-  height:281px;
-  max-width: 100%;
+  height:100px;
+  margin: 0 auto;
 
 }
 
 #transform3 img {
-   width:300px;
-  position:absolute;
-  left:-32.5px;
+   width:100px;
+  left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -213,16 +205,14 @@ padding:20px;}
 
 
 #transform4  {
-  position:relative;
-  height:281px;
-  max-width: 100%;
+  height:100px;
+  margin: 0 auto;
 
 }
 
 #transform4 img {
-      width:300px;
-  position:absolute;
-  left:-32.5px;
+      width:100px;
+  left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -235,16 +225,14 @@ padding:20px;}
 
 
 #transform5  {
-  position:relative;
-  height:281px;
-  max-width: 100%;
+  height:100px;
+ margin: 0 auto;
 
 }
 
 #transform5 img {
-     width:300px;
-  position:absolute;
-  left:-32.5px;
+     width:100px;
+  left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -257,16 +245,14 @@ padding:20px;}
 
 
 #transform6  {
-  position:relative;
-  height:281px;
-  max-width: 100%;
+  height:100px;
+  margin: 0 auto;
 
 }
 
 #transform6 img {
-     width:300px;
-  position:absolute;
- left:-32.5px;
+     width:100px;
+ left:0px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -293,8 +279,7 @@ padding:20px;}
 
 {
 width:240px;
-float:left;
-margin:0 0px 20px 12px;
+margin:auto;
 background-color: #eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
@@ -382,7 +367,7 @@ border: 1px solid black;
 
 
 
-.fel{float:left;}
+#fel{float:left;}
 .pil{float:right;}
 .pil img {height:90px; width:50px;}
 
