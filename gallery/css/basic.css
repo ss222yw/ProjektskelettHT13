@@ -125,14 +125,14 @@ a:hover, a:focus{
 
 
 
-body {
+body {color:white;
     font-family: 'Devonshire', cursive;
-background-color:black;
+background-image:url("../../pages/pics/hd1.jpg");
 }
 
-p{color:blue;
+p{color:white;
 font-size:200%;}
-h2{color:red;
+h2{color:gray;
 font-size:400%;}
 
 a:after
