@@ -113,8 +113,10 @@ background-color:#eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
-margin:auto;}
-
+margin:auto;
+float:right;
+margin-right:50px;
+margin-bottom:10px;}
 .pil{float:right;}
 .pil img {height:118px; width:150px;}
 
@@ -275,7 +277,10 @@ background-color:#eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
-margin:auto;}
+margin:auto;
+float:right;
+margin-right:50px;
+margin-bottom:10px;}
 
 
 .felanmalan img {max-width:40%; margin:auto;}

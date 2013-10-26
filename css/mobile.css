@@ -267,25 +267,19 @@ padding:20px;}
 
 
 /* Personal pictures in Contact */
-#personalpic
-{
-    height: 100px;
-    width: 100px;
-}
 
 
 /* Contact figure box */
 #main1 section
 
 {
-width:240px;
+max-width:70%;
 margin:auto;
-background-color: #eee;
+background-color:#eee;
 -moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
-text-align: center;
-padding: 0px 25px 15px 15px;
+padding:20px;
 
 }
 
