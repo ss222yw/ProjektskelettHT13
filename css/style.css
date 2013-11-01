@@ -1,35 +1,17 @@
 body
 {
     text-align:center;
-background-color:#eee;
 }
-h1{ color:#A52A2A; font-weight:bold; text-shadow: 10px 10px 10px gray;}
-h2{font-weight:bold; text-shadow: 10px 10px 10px #708090;}
 .felanmalan img {width:100%;}
 #wrapper
 {
 max-width:100%;    
 margin: auto;
 height: auto; 
-border-radius: 5px 5px 5px 5px;
 width:960px;
 }
 
-/* Header */
-header
-{
-text-align: center;    
-border-radius: 15px 15px 15px 15px; 
-background:url(pics/silver1.jpg);
 
-}
-/* Footer */
-footer
-{
-text-align: center;    
-background:url(pics/white1.jpg);
-border-radius: 15px 15px 15px 15px;     
-}
 
 /* nav */
 
@@ -42,77 +24,36 @@ padding:35px;
 padding-top:0;
 
 }
-ul
 
-
-{
-list-style-type:none;
-
-}
 nav li
 
 
 {
 float:left;
-text-align:center;
-color:blue;
 }
 
 
 nav li a
 
 {
-text-transform:uppercase;
-text-decoration: none;
-color:white;
-font-weight:bold;
-display:block;
 padding:15px 30px;
-border:solid white 1px;
-background-color:black;
 margin:2px 2px 2px 2px;
 width:120px;
 }
 
-
-nav li a:hover
-
-{
-background-color:#F5F5F5;
-color:black;
-border:solid black 1px;
-} 
- .active 
-{background-color:#A52A2A;}
-.clear
-{
-height:50px;
-clear:both;
-}
 /*Main*/
 
 main
 {
-text-align: center;    
-background-color: #F0FFFF;    
-max-width: 100%;    
-border-radius: 15px 15px 15px 15px;  
-background:url(pics/silver2.png);
+width: 100%;    
 }
 
-main img {-moz-border-radius:12px;
--webkit-border-radius:12px;
-border-radius:12px;
+main img {
 margin:auto;
 height:200px;
 width:320px;}
 
-main{clear:both;}
 #main section{width:400px;
-background-color:#eee;
--moz-border-radius:12px;
--webkit-border-radius:12px;
-border-radius:12px;
 margin:auto;
 float:right;
 margin-right:50px;
@@ -121,19 +62,19 @@ margin-bottom:10px;}
 .pil img {height:118px; width:150px;}
 
 .panorama {border:2px; width:700px; height:220px; padding-bottom:20px;}
-#transform1 {margin:auto; }
-#transform2{margin:auto;  }
-#transform3{margin:auto; }
-#transform4{margin:auto;  }
-#transform5{margin:auto;  }
-#transform6{margin:auto;  }
+#transform1{margin:auto;}
+#transform2{margin:auto;}
+#transform3{margin:auto;}
+#transform4{margin:auto;}
+#transform5{margin:auto;}
+#transform6{margin:auto;}
 
 .table1{margin-left:60px;}
-.table2{margin-left:60px; }
-.table3{ margin-left:60px; }
-.table4{ margin-left:60px;}
-.table5{margin-left:60px; }
-.table6{margin-left:60px; }
+.table2{margin-left:60px;}
+.table3{margin-left:60px;}
+.table4{margin-left:60px;}
+.table5{margin-left:60px;}
+.table6{margin-left:60px;}
 #intresse{float:none; text-decoration:none;}
 
 
@@ -273,10 +214,6 @@ width:420px;
 
 /* Contact figure box */
 #main1 section{width:400px;
-background-color:#eee;
--moz-border-radius:12px;
--webkit-border-radius:12px;
-border-radius:12px;
 margin:auto;
 float:right;
 margin-right:50px;
@@ -292,7 +229,6 @@ main form label
 {
 width: 140px;
 text-align: left;
-display: block;
 }
 
 
@@ -308,7 +244,6 @@ fieldset
 {
 margin: 1px 1px 1px 1px;
 border: 1px solid black;
-background:url(pics/silver1.jpg);
 }
 
 #inputusername
@@ -323,7 +258,11 @@ max-width:100px;
 border: 1px solid black;
 }
 
-
+#kontor
+{
+    margin-top:10px;
+    width: 400px;
+}
 
 
 

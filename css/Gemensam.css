@@ -1,0 +1,89 @@
+body{background-color:#eee;}
+h1{ color:#A52A2A; font-weight:bold; text-shadow: 10px 10px 10px gray;}
+h2{font-weight:bold; text-shadow: 10px 10px 10px #708090;}
+header{background:url(pics/silver1.jpg); text-align: center; border-radius: 15px 15px 15px 15px; }
+footer{text-align: center;    
+background:url(pics/white1.jpg); border-radius: 15px 15px 15px 15px;     
+}
+ul
+{
+list-style-type:none;
+}
+nav li{color:blue;}
+nav li a
+
+{
+text-transform:uppercase;
+text-decoration: none;
+color:white;
+font-weight:bold;
+display:block;
+border:solid white 1px;
+background-color:black;
+}
+
+nav li a:hover
+
+{
+background-color:#F5F5F5;
+color:black;
+border:solid black 1px;
+} 
+
+
+ .active 
+{background-color:#A52A2A;}
+.clear
+{
+height:30px;
+clear:both;
+}
+
+/*Main*/
+
+main
+{
+overflow:hidden;
+text-align: center;    
+background-color: #F0FFFF;    
+background:url(pics/silver2.png);
+border-radius: 15px 15px 15px 15px;  
+
+}
+main img {-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+}
+main{clear:both;}
+#main section{
+background-color:#eee;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+}
+
+
+/* Contact figure box */
+#main1 section
+
+{
+background-color:#eee;
+-moz-border-radius:12px;
+-webkit-border-radius:12px;
+border-radius:12px;
+}
+
+
+main form label
+{
+display: block;
+}
+
+fieldset
+{
+background:url(pics/silver1.jpg);
+}
+
+#wrapper
+{
+border-radius: 5px 5px 5px 5px;
+}
