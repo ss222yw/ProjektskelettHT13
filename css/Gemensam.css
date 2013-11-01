@@ -87,3 +87,4 @@ background:url(pics/silver1.jpg);
 {
 border-radius: 5px 5px 5px 5px;
 }
+#print img{max-width:50px; height:50px; display:block; margin:auto; margin-bottom:5px;}

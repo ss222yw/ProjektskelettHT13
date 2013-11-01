@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="sv">
 <head>
-		<title>
-		Intresseanmälan
-		</title>
-		
-		<meta charset="utf-8">
-				<link rel="shortcut icon" href="../pages/pics/rsz_tss3 (1).png" type="image/x-icon"/>
+                <title>
+                Intresseanmälan
+                </title>
+                
+                <meta charset="utf-8">
+                                <link rel="shortcut icon" href="../pages/pics/rsz_tss3 (1).png" type="image/x-icon"/>
    <link rel="apple-touch-icon" href="../pages/pics/rsz_1tss3.png" />
             <link rel="apple-touch-icon" sizes="72x72" href="../pages/pics/rsz_11tss3.png">
             <link rel="apple-touch-icon" sizes="114x114" href="../pages/pics/rsz_21tss3.png" />
@@ -15,6 +15,13 @@
       <link rel="stylesheet" href="../css/style.css"  media="only screen and (min-width: 481px)">
         <link rel="stylesheet" href="../css/Gemensam.css">
 <meta name="viewport" content="width:device-width, initial-scale=1.0" />
+<script>
+function printpage()
+{
+window.print();
+}
+</script>
+
 </head>
 
 <body>
@@ -33,10 +40,10 @@
  
 <main>
 
-<p>Fyll i dina och din medsökandes personuppgifter samt vad du letar efter så jämför vi vårt utbud mot dina önskemål. Så fort vi får in ett nytt objekt så gör vi en jämförelse mot dina önskemål.</p>
+<p>Fyll i dina personuppgifter samt vad du letar efter så jämför vi vårt utbud mot dina önskemål. Så fort vi får in ett nytt objekt så gör vi en jämförelse mot dina önskemål.</p>
 
 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
-<fieldset>
+<fieldset id="intresse">
 <legend>Intresseanmälan</legend>
 
 
@@ -57,15 +64,15 @@
 <option value="attached">Sambo</option>
 <option value="married" >Gift</option>
 </select>
-	    
+            
 <label>Adress</label>
 <input class="input" type="text" placeholder="Adress" name="address"/>
 
-		    
+                    
 <label>Postnummer</label>
 <input class="input" type="tel" placeholder="Postnummer" name="postalcode"/>
 
-		    
+                    
 <label>Ort</label>
 <input class="input" type="text" placeholder="Ort" name="location"/>
 
@@ -73,7 +80,7 @@
 <label>Telefon</label>
 <input class="input" type="tel" placeholder="Telefon" name="phone"/>
 
-		    
+                    
 <label>E-post</label>
 <input class="input" type="email" placeholder="E-post" name="email"/>
 
@@ -84,7 +91,7 @@
 <label>Årsinkomst</label>
 <input class="input" type="tel" placeholder="Årsinkomst" name="yearwages"/>
 
-	  
+          
 <label>Arbetsgivare</label>
 <input class="input" type="text" placeholder="Arbetsgivare" name="employer"/>
 
@@ -121,6 +128,9 @@
  
 <footer>
   <p>&copy; Ansvarig för denna sidan är TSS Fastigheter AB</p>
+  <div id="print">
+    <a href="#" title="Skriva ut"><img src="../pages/pics/print.png" type="button" value="Print this page" onclick="printpage()"/></a>
+    </div>
   <a href="https://www.facebook.com/pages/TSS-Fastigheter-AB/460550610724217?skip_nax_wizard=true" title="Gilla oss på facebook!"><img src="../pages/pics/fb.png"</a>
 
  </footer>

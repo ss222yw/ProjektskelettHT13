@@ -61,7 +61,7 @@ margin-bottom:10px;}
 .pil{float:right;}
 .pil img {height:118px; width:150px;}
 
-.panorama {border:2px; width:700px; height:220px; padding-bottom:20px;}
+.panorama { width:700px; height:220px; margin-bottom:20px;}
 #transform1{margin:auto;}
 #transform2{margin:auto;}
 #transform3{margin:auto;}
@@ -77,6 +77,7 @@ margin-bottom:10px;}
 .table6{margin-left:60px;}
 #intresse{float:none; text-decoration:none;}
 
+.img1 {display:none;}
 
 #transform1  {
   position:relative;
@@ -213,7 +214,7 @@ width:420px;
 
 
 /* Contact figure box */
-#main1 section{width:400px;
+#main1 section{width:250px;
 margin:auto;
 float:right;
 margin-right:50px;
@@ -222,6 +223,8 @@ margin-bottom:10px;}
 
 .felanmalan img {max-width:40%; margin:auto;}
 #fel{width:500px;margin-left:220px;}
+#intresse{width:500px;margin-left:220px;}
+
 
 /* Fieldset */
 
@@ -264,5 +267,9 @@ border: 1px solid black;
     width: 400px;
 }
 
+#personalpic
+{
+    width: 175px;
+}
 
 
