@@ -51,6 +51,7 @@ background:url(pics/silver2.png);
 border-radius: 15px 15px 15px 15px;  
 
 }
+h6{display:none;}
 main img {-moz-border-radius:12px;
 -webkit-border-radius:12px;
 border-radius:12px;
