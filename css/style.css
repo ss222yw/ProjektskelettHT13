@@ -11,7 +11,16 @@ height: auto;
 width:960px;
 }
 
+a {
+    color: #000099;
+    
+    text-decoration:none;
+}
 
+a:hover
+{
+    color: #0099CC;
+}
 
 /* nav */
 
@@ -38,7 +47,7 @@ nav li a
 {
 padding:15px 30px;
 margin:2px 2px 2px 2px;
-width:120px;
+width:140px;
 }
 
 /*Main*/
@@ -214,10 +223,10 @@ width:420px;
 
 
 /* Contact figure box */
-#main1 section{width:250px;
+#main1 section{width:260px;
 margin:auto;
 float:right;
-margin-right:50px;
+margin-right:40px;
 margin-bottom:10px;}
 
 
@@ -243,11 +252,6 @@ margin-bottom: 10px;
 float: left;
 }
 
-fieldset
-{
-margin: 1px 1px 1px 1px;
-border: 1px solid black;
-}
 
 #inputusername
 {
