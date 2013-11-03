@@ -61,7 +61,7 @@ nav li a
 {
 padding:15px 30px;
 margin:2px 2px 2px 2px;
-width:120px;
+width:140px;
 }
 
 
@@ -256,7 +256,7 @@ width:300px;
 
 main form label
 {
-width: 140px;
+width: 150px;
 text-align: left;
 }
 
@@ -267,12 +267,6 @@ main form input, select, textarea
 {
 margin-bottom: 10px;
 float: left;
-}
-
-fieldset
-{
-margin: 1px 1px 1px 1px;
-border: 1px solid black;
 }
 
 #inputusername

@@ -70,7 +70,7 @@ margin-bottom:10px;}
 .pil{float:right;}
 .pil img {height:118px; width:150px;}
 
-.panorama { width:700px; height:220px; margin-bottom:20px;}
+.panorama { width:700px; height:220px; margin-bottom:20px; margin-top:15px;}
 #transform1{margin:auto;}
 #transform2{margin:auto;}
 #transform3{margin:auto;}
@@ -239,7 +239,7 @@ margin-bottom:10px;}
 
 main form label
 {
-width: 140px;
+width: 150px;
 text-align: left;
 }
 
@@ -275,5 +275,4 @@ border: 1px solid black;
 {
     width: 175px;
 }
-
 
