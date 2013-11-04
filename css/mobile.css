@@ -1,10 +1,12 @@
 
+#tssnew img{display:none;}
 
 body
 {
 max-width:100%;
 }
-
+#car{display:none;}
+#car img{display:none;}
 
 
 .felanmalan img {width:200px; height:90px;}

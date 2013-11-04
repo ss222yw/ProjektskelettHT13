@@ -1,0 +1,127 @@
+nav{display:none;}
+main { width: 100%; margin: 0; float: none; border:none; }
+footer {display:none;}
+
+body {
+	font-size: 12pt;
+	line-height: 13pt;
+	font-family: Georgia, "Times New Roman", 
+	Times, serif;
+}
+img {
+max-width: 500px;
+}
+h1 {
+font-size: 24pt;
+}
+
+h2 {
+font-size: 14pt;
+margin-top: 25px;
+}
+
+
+
+
+main img{max-width:100%;}
+main {
+	width: 100%;
+	float: none;
+}
+.felanmalan img {display:none;}
+h6{display:none;}
+#main section {display:none;}
+#main1 section{display:none;}
+main form label{display:none;}
+fieldset{display:none;}
+#search{display:none;}
+.panorama{display:none;}
+#transform1{display:none;}
+#transform2{display:none;}
+#transform3{display:none;}
+#transform4{display:none;}
+#transform5{display:none;}
+#transform6{display:none;}
+#intresse{display:none;}
+.img1 {display:none;}
+#transform1 img {
+ display:none;
+}
+#transform2 img {
+ display:none;
+}
+#transform3 img {
+ display:none;
+}
+#transform4 img {
+ display:none;
+}
+#transform5 img {
+ display:none;
+}
+#transform6 img {
+ display:none;
+}
+#transform5 .top:hover {
+  display:none;
+}
+.felanmalan img {display:none;}
+#fel{display:none;}
+#intresse{display:none;}
+#login {display:none;}
+main form label
+{
+display:none;
+}
+#startsimages img{max-width:100%;}
+#reklam img{max-width:100%;}
+#tssnew img{display:none;}
+#car img {display:none;}
+#car {display:none;}
+main form input, select, textarea
+{
+display:none;
+}
+
+#inputusername
+{
+display:none;
+}
+
+#inputpassword
+{
+display:none;
+}
+
+#kontor
+{
+    display:none;
+}
+
+#personalpic
+{
+    max-width:100%;
+}
+
+#personalpic1
+{
+    max-width:100%;
+}
+
+#personalpic2
+{
+    max-width:100%;
+}
+
+#wrapper{border:solid 1px black;}
+main{border:solid black 1px;}
+header{border:solid 1px black;}
+header{display:none;}
+.pil{display:none;}
+main url{display:none;}
+
+main{background-image:none;}
+#reklam{display:none;}
+.flerbilder{display:none;}
+
+a{display:none;}

@@ -235,15 +235,18 @@ margin-bottom:10px;}
 
 
 /* Fieldset */
+#login {border: solid gray 3px; margin:auto; width:70%;}
 
 main form label
 {
 width: 150px;
 text-align: left;
 }
-
-
-
+#startsimages img{width:70%; height:auto;}
+#reklam img{width:50%; height:auto;}
+#tssnew img{float:left; width:90px; height:130px;}
+#car img {width:100%; height:100%;}
+#car {border:solid gray 2px; float:right;  width:180px; height:500px; position:fixed;}
 
 main form input, select, textarea
 {
@@ -275,3 +278,12 @@ border: 1px solid black;
     width: 175px;
 }
 
+#personalpic1
+{
+    width: 175px;
+}
+
+#personalpic2
+{
+    width: 175px;
+}
