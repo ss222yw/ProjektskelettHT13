@@ -249,6 +249,31 @@ article img{width:70%; height:auto;}
 #car {border:solid gray 2px; float:right;  width:180px; height:500px; position:fixed; background-color:white;}
 #car p{color:black; font-size:1.1em;}
 
+
+#fg {border:solid black 2px; float:right;  width:180px; height:500px; position:relative; background-color:white;}
+#fg p{color:black; font-size:1.1em;}
+#fg{
+animation:mymove 15s infinite;
+-webkit-animation:mymove 15s infinite; /* Safari and Chrome */
+}
+
+@keyframes mymove
+{
+25%   {top:0px; background:#F5F5F5;}
+50%  {top:200px; background:#DCDCDC;}
+75%  {top:50px; background:#F0F8FF;}
+100% {top:100px; background:#B0C4DE;}
+}
+
+@-webkit-keyframes mymove /* Safari and Chrome */
+{
+50%   {top:0px; background:#F5F5F5;}
+40%  {top:200px; background:#DCDCDC;}
+80%  {top:50px; background:#F0F8FF; }
+100% {top:100px; background:#B0C4DE;}
+}
+
+
 main form input, select, textarea
 {
 margin-bottom: 10px;
