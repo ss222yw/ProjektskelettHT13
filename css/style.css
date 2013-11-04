@@ -77,12 +77,12 @@ margin-bottom:10px;}
 #transform5{margin:auto;}
 #transform6{margin:auto;}
 
-.table1{margin-left:60px;}
-.table2{margin-left:60px;}
-.table3{margin-left:60px;}
-.table4{margin-left:60px;}
-.table5{margin-left:60px;}
-.table6{margin-left:60px;}
+.table1{margin-left:60px; width:43%;}
+.table2{margin-left:60px; width:43%;}
+.table3{margin-left:60px; width:43%;}
+.table4{margin-left:60px; width:43%;}
+.table5{margin-left:60px; width:43%;}
+.table6{margin-left:60px; width:43%;}
 #intresse{float:none; text-decoration:none;}
 
 .img1 {display:none;}
@@ -231,7 +231,7 @@ margin-bottom:10px;}
 
 .felanmalan img {max-width:40%; margin:auto;}
 #fel{width:500px;margin-left:220px;}
-#intresse{width:500px;margin-left:220px;}
+
 
 
 /* Fieldset */
@@ -242,11 +242,12 @@ main form label
 width: 150px;
 text-align: left;
 }
-#startsimages img{width:70%; height:auto;}
+article img{width:70%; height:auto;}
 #reklam img{width:50%; height:auto;}
 #tssnew img{float:left; width:90px; height:130px;}
 #car img {width:100%; height:100%;}
-#car {border:solid gray 2px; float:right;  width:180px; height:500px; position:fixed;}
+#car {border:solid gray 2px; float:right;  width:180px; height:500px; position:fixed; background-color:white;}
+#car p{text-shadow:1px 1px 1px gray; font-size:1.1em;}
 
 main form input, select, textarea
 {
@@ -287,3 +288,4 @@ border: 1px solid black;
 {
     width: 175px;
 }
+

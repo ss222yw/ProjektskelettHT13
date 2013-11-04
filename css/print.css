@@ -7,6 +7,7 @@ body {
 	line-height: 13pt;
 	font-family: Georgia, "Times New Roman", 
 	Times, serif;
+	background-color:white;
 }
 img {
 max-width: 500px;
@@ -21,7 +22,7 @@ margin-top: 25px;
 }
 
 
-
+#clear1{height:80px; clear:both;}
 
 main img{max-width:100%;}
 main {
@@ -82,7 +83,7 @@ main form input, select, textarea
 {
 display:none;
 }
-
+.clear{display:none;}
 #inputusername
 {
 display:none;
