@@ -3,11 +3,11 @@ main { width: 100%; margin: 0; float: none; border:none; }
 footer {display:none;}
 #fg{display:none;}
 body {
-	font-size: 12pt;
-	line-height: 13pt;
-	font-family: Georgia, "Times New Roman", 
-	Times, serif;
-	background-color:white;
+font-size: 12pt;
+line-height: 13pt;
+font-family: Georgia, "Times New Roman", 
+Times, serif;
+background-color:white;
 }
 img {
 max-width: 500px;
@@ -26,8 +26,8 @@ margin-top: 25px;
 
 main img{max-width:100%;}
 main {
-	width: 100%;
-	float: none;
+width: 100%;
+float: none;
 }
 .felanmalan img {display:none;}
 h6{display:none;}
@@ -46,25 +46,25 @@ fieldset{display:none;}
 #intresse{display:none;}
 .img1 {display:none;}
 #transform1 img {
- display:none;
+display:none;
 }
 #transform2 img {
- display:none;
+display:none;
 }
 #transform3 img {
- display:none;
+display:none;
 }
 #transform4 img {
- display:none;
+display:none;
 }
 #transform5 img {
- display:none;
+display:none;
 }
 #transform6 img {
- display:none;
+display:none;
 }
 #transform5 .top:hover {
-  display:none;
+display:none;
 }
 .felanmalan img {display:none;}
 #fel{display:none;}
@@ -96,22 +96,22 @@ display:none;
 
 #kontor
 {
-    display:none;
+display:none;
 }
 
 #personalpic
 {
-    max-width:100%;
+max-width:100%;
 }
 
 #personalpic1
 {
-    max-width:100%;
+max-width:100%;
 }
 
 #personalpic2
 {
-    max-width:100%;
+max-width:100%;
 }
 
 #wrapper{border:solid 1px black;}
