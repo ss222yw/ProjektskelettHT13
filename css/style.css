@@ -255,11 +255,11 @@ article img{width:70%; height:auto;}
 #car {border:solid gray 2px; float:right;  width:180px; height:500px; position:fixed; background-color:white;}
 #car p{color:black; font-size:1.1em;}
 
-#english{float:left; margin-top:-505px;}
+#english{float:left; margin-top:-500px;}
 #english img{width:60px; height:30px;}
 
 #svenska{float:left; margin-top:-250px;}
-#svenska img{width:60px; height:50px;}
+#svenska img{width:60px; height:50px; margin-top: -15px;}
 
 #fg {border:solid black 2px; float:right;  width:180px; height:500px; position:relative; background-color:white;}
 #fg p{color:black; font-size:1.1em;}
